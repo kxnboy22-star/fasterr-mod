@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "faster",
+  "version": "${version}",
+  "name": "faster!",
+  "description": "Press FASTER FASTER FASTER to instantly swap to your spear and use it. Built for races.",
+  "authors": ["You"],
+  "environment": "client",
+  "entrypoints": { "client": ["com.faster.FasterClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
